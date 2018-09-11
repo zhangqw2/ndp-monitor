@@ -1,0 +1,5 @@
+# TASK STEEINGS
+task.set:
+  scheduling: true
+  #cycle.time: 0 0 10 1 * ?
+  cycle.time: 0/3 * * * * ?
