@@ -1,5 +1,19 @@
-# TASK STEEINGS
-task.set:
-  scheduling: true
-  #cycle.time: 0 0 10 1 * ?
-  cycle.time: 0/3 * * * * ?
+# SERVER SETTINGS
+server:
+ port: 8089
+ address: localhost
+
+crcss.monitor:
+ #超时率统计
+ task1:
+  indexName: 超时率
+  threhold: 100
+  switch: true
+  schedule: 0/3 * * * * ?
+
+  #超时率统计
+ task2:
+  indexName: 开关任务
+  threhold: 100
+  switch: true
+  schedule: 0/20 * * * * ?

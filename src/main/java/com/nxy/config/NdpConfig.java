@@ -10,7 +10,7 @@ import org.springframework.context.annotation.Configuration;
 @Configuration
 public class NdpConfig {
     //CaculateIndexJob注入
-    @Bean
+    //@Bean
     public CaculateIndexJob caculateIndexJob(){
         return new CaculateIndexJob();
     }
